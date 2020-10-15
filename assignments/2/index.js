@@ -5,7 +5,11 @@
 /*** CHALLENGE 1 of 1 ***/
 
 function makePerson(name, age) {
-	// add code here
+  // add code here
+  let object = {};
+  object.name = name;
+  object.age = age;
+  return object;
 
 
 }
